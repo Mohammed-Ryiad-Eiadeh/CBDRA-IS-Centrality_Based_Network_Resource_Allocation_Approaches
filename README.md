@@ -1,4 +1,4 @@
-# Centrality_Based_Network_Resource_Allocation_Approaches
+# CBDRA-IS: Centrality_Based_Network_Resource_Allocation_Approaches
 
 # Abstract
 
@@ -60,4 +60,4 @@ Note: all of these datasets are stored in the project directory and is called dy
 # Parameter Configuration of Our Experiments
 We begin by outlining the key hyperparameters used in different components of our framework. The parameters for GA were chosen as follows: maximum iterations ($M=100$), population size (number of potential attack paths) ($N=500$), mating probability ($m_p=0.2$), mutation rate ($m_r=0.2$), and weight factor ($Wf=0.001$). The defender's security budget is fixed at $S=10$ for all experiments, and the maximum iterations for the TrustRank algorithm is set to 100, with epsilon ($\epsilon$) at 0.0001. Moreover, the initial investments over the edges of the ten used datasets are randomly generated within the range of (0,1). And for Friedman test, the significance level is set to $SL=0.05$. We emphasize that the advantages of our proposed defense (resource allocation) strategies are applicable for any security budget. For the behavioral defender baseline~\cite{Abdallah2020}, the behavioral level ($a$) is set to 0.5. All tests were performed using Java (JDK 17) on a machine equipped with an Intel® Core™ i7-8750H CPU @ 2.20GHz (12 CPUs), and 32768MB RAM.
 
-# Comparison of AARA-PR and baseline systems on all datasets
+# Comparison of CBDRA-IS and baseline systems on all datasets
