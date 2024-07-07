@@ -44,16 +44,16 @@ For our assessment, we used ten distinct attack graphs, each symbolizing a diffe
 
 | System | # Nodes | # Edges | # Critical Assets | Graph Type |
 | --- | --- | --- | --- | --- |
-| SCADA [12] | 13 | 20 | 6 | Directed |
-| DER.1 [13] | 22 | 32 | 6 | Directed |
-| E-Commerce [14] | 20 | 32 | 4 | Directed |
-| VOIP [14] | 22 | 35 | 4 | Directed |
-| HG1 [15] | 7 | 10 | 2 | Directed |
-| HG2 [15] | 15 | 22 | 5 | Directed |
-| ABSNP [16] | 17 | 122 | 6 | Directed |
-| ASFS3 [16] | 27 | 163 | 9 | Directed |
-| ASS2009 [16] | 31 | 211 | 9 | Directed |
-| AWS03 [16] | 42 | 152 | 15 | Directed |
+| SCADA | 13 | 20 | 6 | Directed |
+| DER.1 | 22 | 32 | 6 | Directed |
+| E-Commerce | 20 | 32 | 4 | Directed |
+| VOIP | 22 | 35 | 4 | Directed |
+| HG1 | 7 | 10 | 2 | Directed |
+| HG2 | 15 | 22 | 5 | Directed |
+| ABSNP | 17 | 122 | 6 | Directed |
+| ASFS3 | 27 | 163 | 9 | Directed |
+| ASS2009 | 31 | 211 | 9 | Directed |
+| AWS03 | 42 | 152 | 15 | Directed |
 
 Note: all of these datasets are stored in the project directory and is called dynamically so no need to set up their paths.
 
