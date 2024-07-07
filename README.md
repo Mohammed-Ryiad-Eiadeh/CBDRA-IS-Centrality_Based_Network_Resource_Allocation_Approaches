@@ -96,3 +96,29 @@ Comparison among the best resource allocation approaches corresponding to each r
 | **Rank First**       | 2                                         | 1                                            | 1                                         | 1                                     | 2                                 | 0       | 0                    | 0                              | 0                     | **3**       |
 | **Sum of Rank**      | 64                                        | 42                                          | 57                                       | **81**                                 | 78                                | 73      | 21                  | 29                             | 37                    | 68          |
 | **Mean Rank**        | 6.4                                       | 4.2                                         | 5.7                                      | **8.1**                                | 7.8                               | 7.3     | 2.1                 | 2.9                            | 3.7                   | 6.8         |
+
+# How To Run The Code (read carefully please)
+
+1) Download intellIJ IDEA latest version
+2) Dounload JDK 17 or higher
+3) Set up the environment variable for the bin folder of the JDK 17+
+4) Open the IDEA
+5) Open the project
+6) Make sure you are connected to the internet
+7) Wait while the IDEA download all the libraries that are included as dependencies in the pom XML file
+8) Go to the main package. Then you will find many packages where each one is corresponding to different approach
+9) Go to the approach you want to run
+10) Set up the desired hyperparameters
+11) Run the file to see the results.
+
+# References
+
+For the mean of being so accurate, you will find all references of the used approaches and the used datasets in the paper
+
+# Contact With Authors
+
+Send email to the following authors for any question about this work, and it is our pleasure to ansawer your question.
+
+Mohammad Aleiadeh, mraleiad@iu.edu or maleiade@purdue.edu
+
+dr. Mustafa Abdallah, mabdall@iu.edu or abdalla0@purdue.edu
