@@ -50,7 +50,11 @@ public class TrustRankAlgorithm {
         // Initialize the initialSeedVector map with initial seed values
         HashMap<Integer, Double> initialSeedVector = new HashMap<>();
         for (int i = 0; i < adjMatrix.length; i++) {
-            initialSeedVector.put(i + 1, 2.0);
+            if (assetLossVec[i] > 0) {
+                initialSeedVector.put(i + 1, 2.0 + 0.001 * assetLossVec[i]);
+            } else {
+                initialSeedVector.put(i + 1, 2.0);
+            }
         }
         // Calculate the out-degree of each node and store in the outDegreeMatrix array
         double[] outDegreeMatrix = new double[adjMatrix.length];
