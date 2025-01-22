@@ -115,8 +115,10 @@ Comparison among the best resource allocation approaches corresponding to each r
 
 For the mean of being so accurate, you will find all references of the used approaches and the used datasets in the paper
 
-# Contact With The Developer
+# Contact With The Authors
 
-Send email to the following developer for any question about this work, and it is my pleasure to ansawer your question.
+Send email to the following Authors for any question about this work, and it is our pleasure to ansawer your question.
 
-Mohammad Aleiadeh, mraleiad@iu.edu or maleiade@purdue.edu
+Mohammad Aleiadeh, maleiade@purdue.edu
+
+Mustafa Abdallah, abdalla0@purdue.edu
