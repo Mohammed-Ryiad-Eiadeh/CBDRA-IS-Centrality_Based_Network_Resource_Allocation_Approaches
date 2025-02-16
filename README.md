@@ -106,10 +106,9 @@ Comparison among the best resource allocation approaches corresponding to each r
 5) Open the project
 6) Make sure you are connected to the internet
 7) Wait while the IDEA download all the libraries that are included as dependencies in the pom XML file
-8) Go to the main package. Then you will find many packages where each one is corresponding to different approach
-9) Go to the approach you want to run
-10) Set up the desired hyperparameters
-11) Run the file to see the results.
+8) Go to the main package. Then you will find a class called ResourceAllocationMain.
+9) Set up the desired hyperparameters
+10) Run the file to see the results.
 
 # References
 
