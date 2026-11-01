@@ -20,7 +20,17 @@ public class CascadingFailureTestMain {
             var adjMatrix = graphCase.getAdjacencyMatrix(defenderMatrix);
             var assetLossVec = graphCase.getNodeAssetsLossValues();
 
-            var attackPathsLerner = new ConcurrentAttack(adjMatrix,
+            
+        /**
+         * Note: Although crossover was included in the published methodology,
+         * it has been removed because, in the original implementation, it did
+         * not update the population under the implemented conditions.
+         * Consequently, crossover introduced unnecessary computational overhead
+         * without contributing to the evolutionary process. Its removal preserves
+         * the effective optimization behavior and maintains consistency with
+         * the published experimental results.
+         */
+        var attackPathsLerner = new ConcurrentAttack(adjMatrix,
                     assetLossVec,
                     500,
                     0.2,
