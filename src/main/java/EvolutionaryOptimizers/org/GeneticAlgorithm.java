@@ -67,9 +67,6 @@ public class GeneticAlgorithm extends FitnessFunction {
         for (int iter = 0; iter < maxIter; iter++) {
             RandomSelection_Tournament(population);
             for (int i = 0; i < population.size(); i++) {
-                List<Integer> chromosome1 = new ArrayList<>(population.get(new Random().nextInt(population.size())));
-                List<Integer> chromosome2 = new ArrayList<>(population.get(new Random().nextInt(population.size())));
-                Crossover(chromosome1, chromosome2);
                 population.set(i, Mutation(population.get(i)));
             }
             convergenceCurve [iter] = super.evaluateAllSolution(population);
